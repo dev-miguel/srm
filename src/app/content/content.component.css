@@ -1,0 +1,43 @@
+.card .title {
+    height: 10rem;
+    border-bottom: 2px #e0e0e0 solid;
+}
+
+.card .content .col-7 {
+    border-right: 2px #e0e0e0 solid;
+}
+
+.card .content .col-7 ul {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style: none;
+}
+
+.card .content .col-7 ul li, .card .content .col-5 ul li {
+    margin-bottom: 10px;
+}
+
+.card .content .col-7 ul li a, .card .content .col-5 ul li a  {
+    padding: 10px;
+    border: 1px #6796ce solid;
+    display: block;
+}
+
+.card .content .col-5 ul {
+    list-style: none;
+}
+
+.card .content .col-12 {
+    border-bottom: 2px #e0e0e0 solid;
+    height: 4em;
+}
+
+.blank {
+    padding: 23px;
+}
+
+.new-select-custom {
+    border: 1px #6796ce solid;
+    padding: 5px 10px;
+}

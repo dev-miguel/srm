@@ -1,0 +1,109 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+    font-family: 'Lato Medium';
+    src: url('assets/fonts/Lato-Medium.woff2') format('woff2'),
+        url('assets/fonts/Lato-Medium.woff') format('woff'),
+        url('assets/fonts/Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Light';
+    src: url('assets/fonts/Lato-Light.woff2') format('woff2'),
+        url('assets/fonts/Lato-Light.woff') format('woff'),
+        url('assets/fonts/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('assets/fonts/Lato-Regular.woff2') format('woff2'),
+        url('assets/fonts/Lato-Regular.woff') format('woff'),
+        url('assets/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Lato Light';
+}
+
+.light {
+    font-family: 'Lato Light';
+}
+
+.regular {
+    font-family: 'Lato Regular';
+}
+
+.medium {
+    font-family: 'Lato Medium';
+}
+
+.bg-1 {
+    background-color: #ffffff !important;
+}
+
+.bg-2 {
+    background-color: #17283f !important;
+}
+
+.bg-3 {
+    background-color: #eaeaea !important;
+}
+
+.bg-4 {
+    background-color: #6796ce !important;
+}
+
+.bg-none {
+    background-color: transparent !important;
+}
+
+.border-none {
+    border: none;
+}
+
+.fc-1 {
+    color: #ffffff !important;
+}
+
+.fc-2 {
+    color: #17283f !important;
+}
+
+.fc-3 {
+    color: #5e8ac7 !important;
+}
+
+.fc-4 {
+    color: #888888 !important;
+}
+
+.fc-5 {
+    color: #3f3f3d !important;
+}
+
+.card {
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+    min-height: 30em;
+    margin-bottom: 10px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+.select-custom {
+    text-align-last: center;
+    border: 2px #729fd2 solid;
+    padding: 15px;
+}

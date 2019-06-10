@@ -1,0 +1,33 @@
+.header {
+    height: 6.666rem;
+}
+
+.logo-container {
+    width: 16.666%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.notifications {
+    width: 60px;
+    height: 100%;
+}
+
+.count {
+    background-color: #d01515;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+    margin-right: 15px;
+}

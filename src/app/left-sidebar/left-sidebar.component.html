@@ -1,0 +1,18 @@
+<div class="row search bg-1">
+    <div class="col-12 d-flex align-items-center header-left">
+        <input type="search" id="search" placeholder="Pesquise Aqui">
+        <button class="bg-none border-none"><fa-icon class="fc-4" [icon]="['fas', 'search']"></fa-icon></button>
+    </div>
+</div>
+<div class="row left-sidebar-menu">
+    <div class="col-12 px-0">
+        <ul class="p-0 m-0">
+            <li class="p-3" *ngFor="let item of menu">
+                <a class="d-flex align-items-center fc-1" href="{{item.link}}">
+                    <fa-icon class="mr-3 icon" [icon]="['fas', item.icon ]"></fa-icon>
+                    <label class="regular mb-0">{{item.name}}</label>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
